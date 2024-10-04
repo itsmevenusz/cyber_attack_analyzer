@@ -22,7 +22,7 @@ A Python tool that analyzes packet captures (`.pcap` files) to detect potential 
     Download and install Npcap from Npcap's official website.
     During installation, ensure that you check the option "Install Npcap in WinPcap API-compatible mode."
 
-Example Output:
+## Example Output:
 
 === Packet Analysis Results ===
 Total Packets: 691
@@ -44,13 +44,14 @@ To sniff live traffic:
 
   3. Select the option to sniff live traffic. The tool will capture and display a summary of the first 10 packets.
 
-Future Enhancements
+## Future Enhancements
 
 Suspicious IP Detection: Compare captured IPs with a list of known malicious IPs to flag potential threats.
 Anomaly Detection: Add functionality to detect unusual packet patterns or unexpected protocols.
 Packet Visualizations: Use Matplotlib to visualize traffic (e.g., packet distribution by protocol or source IP).
 
-Technologies Used
+## Technologies Used
+
 Python
 Scapy: For packet manipulation and analysis.
 Npcap: For live packet capturing (on Windows).
